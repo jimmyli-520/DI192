@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form Practice</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="">
+    Fist Name: <input type="text" name="firstname"><br>
+    Last Name: <input type="text" name="lastname"><br>
+    Email: <input type="text" name="email"><br>
+    Password:<input type="password" name="password" min="5"><br>
+    Birthday: <input type="date" name="birthday"><br>
+    Gender: <br>
+    Male:<input type="radio" name="Gender" value="male"><br>
+    Female:<input type="radio" name="Gender" value="female"><br>
+    Other:<input type="radio" name="Gender" value="other"><br>
+    Pets: <br>
+    <input type="checkbox" name="cat">Cats<br>
+    <input type="Checkbox" name="dog">Dogs<br>
+    Cars:<br>
+    <select name="cars">
+      <option value="">Tesla</option>
+      <option value="">BMW</option>
+      <option value="">Audi</option>
+      <option value="">Fiat</option>
+      <option value="">Volvo</option>
+      <option value="">Porche</option>
+    </select> <br>
+    <input type="submit" value="Register">
+    <input type="reset">
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>heading 1</th>
+        <th>heading 2</th>
+        <th>heading 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>content 1</td>
+        <td>content 2</td>
+        <td>content 3</td>
+      </tr>
+      <td>content 4</td>
+      <td>content 5</td>
+      <td>content 6</td>
+      <tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>footer-content 1</td>
+        <td>footer-content 2</td>
+        <td>footer-content 3</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+
+
+<form action="#">
+  <div>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username">
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+  </div>
+  <div>
+    <label>Favorite Instructor</label>
+
+    <label for="elie">Elie</label>
+    <input type="radio" name="favorite_instructor" id="elie" value="elie">
+    <label for="matt">Matt</label>
+    <input type="radio" name="favorite_instructor" id="matt" value="matt" checked>
+    <label for="tim">Tim</label>
+    <input type="radio" name="favorite_instructor" id="tim" value="tim">
+  </div>
+  <div>
+    <label>Where do you live</label>
+
+    <select name="city">
+      <option value="Paris">Paris</option>
+      <option value="NY">New York</option>
+      <option value="Beijing">Beijing</option>
+    </select>
+  </div>
+  <div>
+    <label>Favorite Programming Language(s)</label>
+
+    <label for="ruby">Ruby</label>
+    <input type="checkbox" name="favorite_language1" value="Ruby" id="ruby">
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" name="favorite_language2" value="JavaScript" id="javascript">
+    <label for="python">Python</label>
+    <input type="checkbox" name="favorite_language3" value="Python" id="python">
+  </div>
+  <div>
+    <label>Additional Comments</label>
+    <textarea name="comments" id="com" cols="30" rows="10"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="click to submit">
+  </div>
+</form>
+
+</html>
