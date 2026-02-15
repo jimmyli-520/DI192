@@ -58,3 +58,14 @@ elif score >= 70:
 else: 
   grade = "F"
 print(grade)
+
+# nested condition
+my_age = 18
+has_license = True
+if age >= 18:
+  if has_license:
+    print("you cna drive")
+  else:
+    print("get a license")
+else:
+  print("too young")
