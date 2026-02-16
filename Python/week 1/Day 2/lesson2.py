@@ -25,7 +25,7 @@
 #     x += 1
 
 
-password = "ruben"
+# password = "ruben"
 
 # get_pass = input("Whats the password?")
 # while get_pass != password:
@@ -34,10 +34,16 @@ password = "ruben"
 
 # print("you hacked the mainframe!")
 
-while True:
-    get_pass = input("What's the password")
-    if get_pass == password:
-        print("you hacked the mainframe!")
-        break
-    else:
-        print("Wrong!")
+# while True:
+#     get_pass = input("What's the password")
+#     if get_pass == password:
+#         print("you hacked the mainframe!")
+#         break
+#     else:
+#         print("Wrong!")
+
+# Print the numbers from 1 to 10 using while loop
+# i = 1
+# while i <= 10:
+#     print(i)
+#     i += 1
