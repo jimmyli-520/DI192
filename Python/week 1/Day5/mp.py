@@ -70,6 +70,3 @@ def play():
 
 play()
 
-
-# board = create_board()
-# display_board(board)
