@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a3fbf;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+form {
+  background: white;
+  padding: 30px 36px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 460px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 7px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #4a3fbf;
+}
+
+input.error {
+  border-color: #e74c3c;
+}
+
+br {
+  margin-bottom: 4px;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#lib-button {
+  background: #4a3fbf;
+  color: white;
+}
+
+#lib-button:hover {
+  background: #3730a3;
+}
+
+#shuffle-button {
+  background: #e8e6ff;
+  color: #4a3fbf;
+}
+
+#shuffle-button:hover:not(:disabled) {
+  background: #d0ccff;
+}
+
+#shuffle-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+#story-box {
+  background: white;
+  margin-top: 24px;
+  padding: 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 460px;
+  animation: fadeIn 0.4s ease;
+}
+
+#story-box.hidden {
+  display: none;
+}
+
+.story-label {
+  font-weight: 700;
+  color: #4a3fbf;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#story {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+#story .highlight {
+  color: #4a3fbf;
+  font-weight: 700;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 0.82rem;
+  margin-top: 6px;
+  margin-left: 150px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
