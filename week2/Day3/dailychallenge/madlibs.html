@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Challenge: Mad Libs</title>
-    <link rel="stylesheet" href="madlibs.css" />
-  </head>
-  <body>
 
-    <h1>Mad Libs</h1>
+<head>
+  <meta charset="utf-8" />
+  <title>Challenge: Mad Libs</title>
+  <link rel="stylesheet" href="madlibs.css" />
+</head>
 
-    <form id="libform">
-      <label for="noun">Noun:</label>
-      <input type="text" id="noun" placeholder="e.g. banana" /><br>
+<body>
 
-      <label for="adjective">Adjective:</label>
-      <input type="text" id="adjective" placeholder="e.g. fluffy" /><br>
+  <h1>Mad Libs</h1>
 
-      <label for="person">Someone's Name:</label>
-      <input type="text" id="person" placeholder="e.g. Jessica" /><br>
+  <form id="libform">
+    <label for="noun">Noun:</label>
+    <input type="text" id="noun" placeholder="e.g. banana" /><br>
 
-      <label for="verb">Verb:</label>
-      <input type="text" id="verb" placeholder="e.g. dance" /><br>
+    <label for="adjective">Adjective:</label>
+    <input type="text" id="adjective" placeholder="e.g. fluffy" /><br>
 
-      <label for="place">A Place:</label>
-      <input type="text" id="place" placeholder="e.g. the moon" /><br>
+    <label for="person">Someone's Name:</label>
+    <input type="text" id="person" placeholder="e.g. Jessica" /><br>
 
-      <div class="btn-group">
-        <button id="lib-button" type="submit">Lib it!</button>
-        <button id="shuffle-button" type="button" disabled>🔀 Shuffle Story</button>
-      </div>
-    </form>
+    <label for="verb">Verb:</label>
+    <input type="text" id="verb" placeholder="e.g. dance" /><br>
 
-    <div id="story-box" class="hidden">
-      <p class="story-label">Generated story:</p>
-      <p id="story"></p>
+    <label for="place">A Place:</label>
+    <input type="text" id="place" placeholder="e.g. the moon" /><br>
+
+    <div class="btn-group">
+      <button id="lib-button" type="submit">Lib it!</button>
+      <button id="shuffle-button" type="button" disabled>🔀 Shuffle Story</button>
     </div>
+  </form>
 
-    <script src="madlibs.js"></script>
-  </body>
+  <div id="story-box" class="hidden">
+    <p class="story-label">Generated story:</p>
+    <p id="story"></p>
+  </div>
+
+  <script src="madlibs.js"></script>
+</body>
+
 </html>
