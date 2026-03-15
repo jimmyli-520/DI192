@@ -1,0 +1,52 @@
+body {
+  background-image: url(circuit-pattern.png);
+  background-position: center;
+  margin: 0;
+  background-color: #6048a0;
+  min-height: 100vh;
+  color: white;
+}
+
+.header {
+  display: flex;
+  background-color: #76c442;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  font-family: 'SEGA LOGO FONT', sans-serif;
+  color: black;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 20px;
+}
+
+#robot-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* center the cards */
+  padding: 20px;
+}
+
+.card {
+  background-color: #2a9d8f;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 6px;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 50%;
+}
