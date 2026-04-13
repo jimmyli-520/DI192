@@ -1,0 +1,53 @@
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Coverage
+coverage/
+
+# Build output
+dist/
+build/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Local env for IDEs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# Misc
+*.tgz
