@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# Coverage reports
+coverage/
+nyc_output/
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Lockfiles (optional to track/remove if desired)
+#package-lock.json
+#yarn.lock
+
+# Misc
+*.env
+*.local
+
+# Optional: ignore node debug files
+node-debug.log
+
+# Files folder (if you generate temporary files there)
+files/*.tmp
+
+# Keep this file tracked
+!/.gitignore
