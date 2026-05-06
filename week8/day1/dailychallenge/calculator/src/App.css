@@ -1,0 +1,62 @@
+/* index.css */
+
+/* 1. The Full Page Wrapper */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1c1c1e; /* Dark iOS background */
+  font-family: -apple-system, sans-serif;
+}
+
+/* 2. The White Card that makes it look like an app */
+.card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 30px; /* Extra rounded for iOS feel */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  width: 320px;
+  display: flex;
+  flex-direction: column; /* This stacks your inputs vertically! */
+  gap: 15px; /* Adds space between every element */
+  align-items: center;
+}
+
+/* 3. The Result Number */
+.result-text {
+  font-size: 64px;
+  font-weight: 200;
+  color: #000;
+  margin: 10px 0 30px 0;
+}
+
+/* 4. The Inputs */
+.input-field {
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #d1d1d6;
+  background-color: #457b7c;
+  font-size: 18px;
+  outline: none;
+  text-align: center;
+}
+
+/* 5. The Button */
+.calc-button {
+  width: 100%;
+  padding: 16px;
+  border-radius: 14px;
+  border: none;
+  background-color: #7f3bd8; /* Apple Blue */
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.calc-button:active {
+  background-color: #005ecb; /* Darkens when tapped */
+}
