@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 type Book = {
   id: number;
@@ -8,7 +8,7 @@ type Book = {
 
 interface ListProps <T> {
   items: T[];
-  renderItem:(item: T) => JSX.Element;
+  renderItem:(item: T) => React.JSX.Element;
 }
 
 function List <T> ({items, renderItem}: ListProps<T>) {
